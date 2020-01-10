@@ -1,7 +1,7 @@
 Name:    kgpg
 Summary: Manage GPG encryption keys 
 Version: 4.10.5
-Release: 2%{?dist}
+Release: 4%{?dist}
 
 License: GPLv2+
 #URL:     https://projects.kde.org/projects/kde/kdeutils/%{name}
@@ -103,6 +103,12 @@ fi
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 4.10.5-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.10.5-3
+- Mass rebuild 2013-12-27
+
 * Tue Oct 01 2013 Daniel Vrátil <dvratil@redhat.com> - 4.10.5-2
 - Resolves: #997594, misbehaving checkbox "Allow encryption with untrusted keys"
 - Resolves: #997599, Key Manager does not refresh after change
